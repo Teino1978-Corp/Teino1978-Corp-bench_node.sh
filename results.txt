@@ -1,0 +1,99 @@
+ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-linux]:
+
+** SIEGE 3.0.5
+** Preparing 10 concurrent users for battle.
+The server is now under siege...
+Lifting the server siege...      done.
+
+Transactions:                 158092 hits
+Availability:                 100.00 %
+Elapsed time:                  29.06 secs
+Data transferred:               1.66 MB
+Response time:                  0.00 secs
+Transaction rate:            5440.19 trans/sec
+Throughput:                     0.06 MB/sec
+Concurrency:                    9.90
+Successful transactions:      158092
+Failed transactions:               0
+Longest transaction:            0.02
+Shortest transaction:           0.00
+
+ruby 2.1.1p76 (2014-02-24 revision 45161) [x86_64-linux]:
+
+** SIEGE 3.0.5                                    
+** Preparing 10 concurrent users for battle.      
+The server is now under siege...                  
+Lifting the server siege...      done.            
+                                                  
+Transactions:                 222639 hits         
+Availability:                 100.00 %            
+Elapsed time:                  29.91 secs         
+Data transferred:               2.34 MB           
+Response time:                  0.00 secs         
+Transaction rate:            7443.63 trans/sec    
+Throughput:                     0.08 MB/sec       
+Concurrency:                    9.88              
+Successful transactions:      222639              
+Failed transactions:               0              
+Longest transaction:            0.02              
+Shortest transaction:           0.00              
+
+rubinius 2.2.6.n73 (2.1.0 f3c12adf 2014-03-14 JI) [x86_64-linux-gnu]:
+
+** SIEGE 3.0.5
+** Preparing 10 concurrent users for battle.
+The server is now under siege...
+Lifting the server siege...      done.
+
+Transactions:                 103199 hits
+Availability:                 100.00 %
+Elapsed time:                  29.28 secs
+Data transferred:               1.08 MB
+Response time:                  0.00 secs
+Transaction rate:            3524.56 trans/sec
+Throughput:                     0.04 MB/sec
+Concurrency:                    9.94
+Successful transactions:      103199
+Failed transactions:               0
+Longest transaction:            0.11
+Shortest transaction:           0.00
+
+jruby 1.7.10 (1.9.3p392) 2014-01-09 c4ecd6b on OpenJDK 64-Bit Server VM 1.7.0_51-b31 [linux-amd64]:
+
+** SIEGE 3.0.5                                
+** Preparing 10 concurrent users for battle.  
+The server is now under siege...              
+Lifting the server siege...      done.        
+                                              
+Transactions:                 180525 hits     
+Availability:                 100.00 %        
+Elapsed time:                  29.82 secs     
+Data transferred:               1.89 MB       
+Response time:                  0.00 secs     
+Transaction rate:            6053.82 trans/sec
+Throughput:                     0.06 MB/sec   
+Concurrency:                    9.90          
+Successful transactions:      180525          
+Failed transactions:               0          
+Longest transaction:            0.06          
+Shortest transaction:           0.00          
+
+Node.js v0.10.26:
+
+** SIEGE 3.0.5
+** Preparing 10 concurrent users for battle.
+The server is now under siege...
+Lifting the server siege...      done.
+
+Transactions:                 190550 hits
+Availability:                 100.00 %
+Elapsed time:                  29.91 secs
+Data transferred:               2.00 MB
+Response time:                  0.00 secs
+Transaction rate:            6370.78 trans/sec
+Throughput:                     0.07 MB/sec
+Concurrency:                    9.92
+Successful transactions:      190550
+Failed transactions:               0
+Longest transaction:            0.02
+Shortest transaction:           0.00
